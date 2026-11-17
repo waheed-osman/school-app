@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "إدارة المدرسة",
+    "slug": "school-admin",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "locale": "ar",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "eg.school.admin",
+      "versionCode": 1,
+      "permissions": ["USE_BIOMETRIC", "USE_FINGERPRINT"]
+    },
+    "plugins": ["expo-sqlite", "expo-local-authentication", "expo-notifications"],
+    "extra": { "supportsRtl": true }
+  }
+}
